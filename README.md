@@ -1,13 +1,25 @@
-# LSESU Real Estate Investment Society — Website
+# REIS Website — Stage 2
 
-Corrected society logo and responsive maroon, coral-red and white homepage.
+Official student-led website of the LSESU Real Estate Investment Society.
 
-## Upload to GitHub
-Upload **index.html, style.css, script.js, reis-logo-mark.png** to the root of the existing REIS-website repository. The file **REIS-corrected-logo.png** is the corrected full logo, provided for use in society materials; you can also upload it to the repository if desired. Commit to main; GitHub Pages updates automatically.
+## Publish
+Upload the contents of this folder (not the folder itself or ZIP) to the root of `lserealestateinvestment/REIS-website` on the `main` branch. GitHub Pages should remain configured to deploy from `main` and `/ (root)`.
 
-## Important before public launch
-- Replace `YOUR-SOCIETY-EMAIL@example.com` in index.html with the actual society email.
-- Replace the generic LSESU membership link with the official society membership link.
-- Add only confirmed events, publications, committee details and partners.
-- The hero photo is served from Unsplash and requires an internet connection; confirm image licence and replace with society-owned imagery if preferred.
-- The logo was recreated from the supplied low-resolution image, not an official editable vector file; check against official brand assets.
+## Included files
+- `index.html` — all homepage content, navigation and links
+- `style.css` — approved maroon/coral/white design and mobile styles
+- `script.js` — responsive navigation and year
+- `reis-logo-mark.png` — emblem in header and footer
+- `REIS-corrected-logo.png` — separate corrected logo asset
+
+## Next edits before wider launch
+- Replace 'Official membership link coming soon' with the verified LSESU membership link when available.
+- Confirm the public LinkedIn URL `https://www.linkedin.com/company/74881086/` works when logged out. The supplied `/admin/dashboard/` URL is deliberately not published.
+- Add committee photos and profiles only with permission.
+- Add only verified events, publications and partners.
+- Check LSESU branding permissions.
+
+## Contacts
+- Email: lse.realestateinvestment@gmail.com
+- Instagram: https://www.instagram.com/lsesurealestate/
+- LinkedIn: https://www.linkedin.com/company/74881086/
