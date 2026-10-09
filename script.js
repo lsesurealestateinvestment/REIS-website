@@ -10,4 +10,8 @@ nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => 
   menuButton?.setAttribute('aria-expanded', 'false');
   menuButton?.setAttribute('aria-label', 'Open navigation');
 }));
-document.querySelector('#year').textContent = new Date().getFullYear();
+const yearElement = document.querySelector('#year');
+
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
+}
