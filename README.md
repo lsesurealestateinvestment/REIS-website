@@ -1,17 +1,5 @@
-# REIS Website
+REIS Website — Maroon, Red & White Edition
 
-Homepage for the LSESU Real Estate Investment Society.
+Upload index.html, style.css, script.js and README.md to the ROOT of your public GitHub Pages repository, replacing the previous files. The homepage uses deep maroon (#491426), red (#c9344f), and white (#ffffff).
 
-## Editing
-- `index.html`: all homepage text, links and sections.
-- `style.css`: colours, layout, typography and mobile responsiveness.
-- `script.js`: mobile menu and copyright year.
-
-## Before public launch
-- Replace `YOUR-SOCIETY-EMAIL@example.com` in `index.html` with the verified society email.
-- Replace generic LSESU link with the official REIS membership URL.
-- Add verified society Instagram, committee information and actual events when available.
-- Confirm use of LSESU name and branding follows LSESU guidance.
-
-## Publishing
-Upload the three files to the root of your GitHub Pages repository on `main`. GitHub Pages should be configured to deploy from `main` and `/(root)`.
+This is an interpretation of the requested palette; replace the placeholder brand mark with the official REIS logo once provided. Verify all links and society information before public launch.
