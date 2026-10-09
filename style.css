@@ -60,3 +60,30 @@ html{scroll-padding-top:18px}
 .footer-links{flex-wrap:wrap;justify-content:flex-end;max-width:520px;row-gap:17px}
 @media(max-width:900px){.nav-links{gap:18px;font-size:11px}.leaders-grid{grid-template-columns:1fr}.footer-links{justify-content:flex-start}}
 @media(max-width:600px){.leader-card{padding:20px;gap:15px}.leader-initial{width:70px;height:82px;font-size:22px}.leader-card h3{font-size:23px}.social-links{flex-wrap:wrap}.connect-actions{gap:16px}}
+
+/* Stage 3: Dedicated committee page */
+.nav-links a[aria-current="page"]{color:#b62b48;font-weight:800}
+.team-hero{background:radial-gradient(circle at 92% 10%,#8a344b 0,transparent 40%),linear-gradient(115deg,#350d1d,#581b31);color:white;padding:110px 0 92px;position:relative;overflow:hidden}
+.team-hero:after{content:"";position:absolute;right:-110px;bottom:-200px;width:540px;height:540px;border:1px solid #ffffff22;transform:rotate(32deg);pointer-events:none}
+.team-hero .container{position:relative;z-index:1}
+.team-hero h1{font-family:Manrope,sans-serif;font-size:clamp(54px,7vw,108px);letter-spacing:-.07em;line-height:1.08;margin:25px 0}
+.team-hero h1 em{font-family:Georgia,serif;color:#ff7f94;font-weight:400}
+.team-hero p:not(.eyebrow){font-size:16px;line-height:1.8;max-width:620px;color:#f1dfe4}
+.team-year{margin-top:45px;display:flex;align-items:center;gap:20px;font-size:11px;letter-spacing:.15em;color:#edbdc8}
+.team-year strong{font-size:17px;color:white;letter-spacing:.04em}
+.team-page{background:#fff}
+.team-section-heading{max-width:750px;margin-bottom:38px}
+.team-section-heading h2,.archive-section h2{font-size:clamp(36px,4.3vw,64px);line-height:1.18;letter-spacing:-.055em;margin:12px 0 20px}
+.team-section-heading>p:last-child,.archive-section>.container>p:not(.eyebrow){font-size:15px;color:#6b6063;line-height:1.8;max-width:700px}
+.group-photo-placeholder{background:linear-gradient(135deg,#f7f0f2,#f0e7ea);border:1px solid #eadde1;min-height:280px;display:flex;align-items:center;justify-content:center;gap:20px;text-align:left;color:#58172c;padding:35px}
+.group-photo-placeholder .group-icon{font-size:60px;opacity:.35}.group-photo-placeholder strong{font-size:20px}.group-photo-placeholder p{color:#75666c;font-size:13px}
+.committee-subheading{margin:90px 0 28px;display:flex;align-items:end;justify-content:space-between;gap:20px;border-bottom:1px solid #e6d9dd;padding-bottom:22px}
+.committee-subheading span{color:#a52d46;font-size:11px;font-weight:800;letter-spacing:.15em}.committee-subheading h2{font-size:clamp(24px,2.7vw,36px);letter-spacing:-.045em;margin:0}.committee-subheading.heads{margin-top:100px}
+.committee-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.committee-card{border:1px solid #ece2e5;background:#fff;min-width:0;transition:transform .2s,box-shadow .2s}.committee-card:hover{transform:translateY(-4px);box-shadow:0 14px 35px #3b10201a}
+.portrait-wrap{height:310px;background:#f3edef;overflow:hidden}.portrait-wrap img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 24%}
+.committee-card-copy{padding:23px 18px 25px}.committee-role{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#a52d46;font-weight:800;line-height:1.5;min-height:31px;margin:0 0 9px}.committee-card h3{font-size:19px;line-height:1.3;letter-spacing:-.04em;margin:0}
+.team-notice{margin-top:35px;color:#6b6063;font-size:13px;padding:20px 25px;background:#f8f1f3;border-left:3px solid #c9344f}
+.archive-section{background:#f8f1f3;padding:105px 0}.archive-empty{border-top:1px solid #dfcdd3;border-bottom:1px solid #dfcdd3;padding:28px 0;margin-top:35px}.archive-empty span{display:block;font-size:10px;letter-spacing:.15em;color:#a52d46;font-weight:800;margin-bottom:10px}.archive-empty strong{font-size:23px}.archive-empty p{color:#6b6063;font-size:13px;line-height:1.7}
+@media(max-width:1000px){.committee-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.portrait-wrap{height:350px}}
+@media(max-width:600px){.team-hero{padding:75px 0}.team-year{flex-wrap:wrap}.group-photo-placeholder{min-height:220px;flex-direction:column;text-align:center}.committee-grid{gap:12px}.portrait-wrap{height:210px}.committee-card-copy{padding:15px 12px}.committee-card h3{font-size:16px}.committee-role{font-size:9px;min-height:45px}.committee-subheading{display:block}.committee-subheading h2{margin-top:12px}.archive-section{padding:70px 0}}
