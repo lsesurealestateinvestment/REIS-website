@@ -1,17 +1,12 @@
-# REIS Website — Stage 3 (Our Team)
+REIS website update — 9 October 2026
 
-Static website for the LSESU Real Estate Investment Society.
+Upload the seven root files to the ROOT of the GitHub repository.
+Then open/create the team-photos folder on GitHub and upload all eight JPGs INSIDE that folder.
+Expected paths: /style.css, /team.html, /team-photos/apostolos.jpg, etc.
 
-## Upload to GitHub Pages
-Upload **all the files and the `team-photos` folder contents** to the root of the `REIS-website` repository, preserving the `team-photos/` folder path. Commit to `main`.
+Membership: https://www.lsesu.com/communities/societies/group/16870/
 
-- `index.html`: homepage, now linking to the team page
-- `team.html`: dedicated 2026–27 committee page
-- `style.css`, `script.js`: shared styling and navigation
-- `team-photos/*.jpg`: cropped individual portraits extracted from supplied committee posters; original posters are not published
-- Logo files: shared branding
+Check: https://lserealestateinvestment.github.io/REIS-website/style.css
+Check: https://lserealestateinvestment.github.io/REIS-website/team-photos/apostolos.jpg
 
-## Future committee updates
-Replace the group-photo placeholder with an approved photograph. Add subcommittee members only when confirmed. At the start of each academic year, move the previous committee into the archive and add the new team.
-
-Please ensure each committee member consents to publication of their photo/name.
+Do not upload the ZIP itself.
