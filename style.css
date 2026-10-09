@@ -2,3 +2,45 @@
 
 /* Maroon / red / white brand refinement */
 .btn-gold{background:#c9344f;color:#fff}.btn-gold:hover{background:#a92740}.btn-dark{background:#58172c;color:#fff}.eyebrow{color:#a52d46}.eyebrow.light{color:#ffc2cd}.mark-dot,.footer-brand span,.hero h1 em{color:#ff8b9d}.nav-links>a:hover{color:#ffacba}.nav-cta span{color:#ff9cad}.hero{background:linear-gradient(118deg,#350e1e 18%,#671b35 66%,#852e47)}.hero-overlay{background:linear-gradient(90deg,#350e1ef5 0%,#491426ce 45%,#4914264d 100%),linear-gradient(0deg,#350e1e 0%,transparent 25%)}.focus,.events{background:#f8f1f3}.partner-section{background:#58172c}footer{background:#3c1022}.btn-outline{border-color:#f5c7d1}.card-kicker,.pillar-number{color:#9b2e47}.inline-link{border-color:#c9344f}
+
+/* Official REIS emblem: coral-red from the supplied logo, supported by maroon and white. */
+:root{--gold:#dd565d;--navy:#421426;--navy2:#5d1c30;--paper:#fff;--border:#eadde1}
+.brand-logo{display:block;width:37px;height:50px;object-fit:contain;flex-shrink:0}
+.brand-name strong{font-size:19px}
+.footer-brand{display:inline-flex;align-items:center;gap:10px}
+.footer-logo{width:30px;height:41px;object-fit:contain}
+.btn-gold{background:#dd565d;color:#fff}.btn-gold:hover{background:#bf414d}
+.hero h1 em,.statement em{color:#ff9fa7}
+.eyebrow.light{color:#ffbbc1}
+.nav-cta span,.nav-links>a:hover{color:#ff9fa7}
+.pillar-symbol,.event-icon{color:#dd565d}
+.hero{background:linear-gradient(118deg,#32101c 18%,#5d1c30 67%,#82384a)}
+.hero-overlay{background:linear-gradient(90deg,#32101cf5 0%,#421426d5 46%,#42142640 100%),linear-gradient(0deg,#32101c 0%,transparent 25%)}
+.focus,.events{background:#fbf7f8}
+.partner-section{background:#52192d}
+footer{background:#2e101d}
+@media(max-width:600px){.brand-logo{width:29px;height:40px}.brand-name strong{font-size:17px}}
+
+/* Brand refresh: official coral red + institutional maroon and white */
+:root{--gold:#ef4157;--navy:#3c101d;--ink:#21191b;--muted:#6b6063}
+.site-header{position:relative;background:#fff;color:#231c1f;border-bottom:1px solid #eee6e8}
+.nav-shell{height:88px}
+.brand-name small{border-left-color:#ded4d7}
+.nav-links>a:not(.nav-cta){opacity:1}
+.nav-links>a:hover{color:#db3148}
+.nav-cta{background:#3c101d;color:#fff;border-color:#3c101d}
+.nav-cta span{color:#ff9eaa}
+.hero{height:min(690px,78vh);min-height:600px;background:linear-gradient(115deg,#2c0b16,#651d31)}
+.hero-content{padding-top:10px}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.045em;font-size:clamp(47px,5.5vw,84px);max-width:850px}
+.hero h1 em{font-style:normal;color:#f04b60}
+.hero-overlay{background:linear-gradient(90deg,#2e0a18 0%,#3d1021ef 42%,#4312213d 100%)}
+.hero-art{background-image:linear-gradient(90deg,transparent 35%,#0000 80%),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1800&q=85');background-size:cover;background-position:center right}
+.tower,.hero-grid{display:none}
+.btn-gold{background:#ee4056;color:white}.btn-gold:hover{background:#c92e43}
+.hero-bottom{color:#f5d9df}
+.intro h2,.section-top h2,.events h2,.partner-section h2,.connect h2{font-family:Georgia,'Times New Roman',serif;font-weight:400;letter-spacing:-.04em}
+.pillar h3{font-family:Georgia,'Times New Roman',serif;font-weight:400}
+.focus,.events{background:#faf7f7}
+.research-card{transition:transform .2s,box-shadow .2s}.research-card:hover{transform:translateY(-4px);box-shadow:0 16px 35px #3c101d12}
+@media(max-width:900px){.menu-toggle span{background:#3c101d}.nav-links{background:#fff;color:#21191b;border-bottom:1px solid #eee}.nav-cta{color:#fff}.hero{min-height:620px;height:auto}.hero-content{padding-top:100px}}
