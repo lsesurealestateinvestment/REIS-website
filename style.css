@@ -111,3 +111,9 @@ html{scroll-padding-top:18px}
 .publication-empty strong{font-size:26px}.publication-empty p{color:#6b6063;line-height:1.8;font-size:14px}
 .publication-empty a{font-weight:800;color:#a52d46;font-size:13px}
 @media(max-width:750px){.research-intro-grid,.research-publications-grid{grid-template-columns:1fr;gap:24px}.division-row{grid-template-columns:1fr;gap:12px;padding:35px 0}.division-index{padding-top:0}}
+/* Keep the Join Us button text white on every page */
+.site-header .nav-links .nav-cta,
+.site-header .nav-links .nav-cta:visited,
+.site-header .nav-links .nav-cta:hover {
+  color: #ffffff;
+}
